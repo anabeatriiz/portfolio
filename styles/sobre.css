@@ -1,5 +1,5 @@
 .container {
-    background: #8DA9CE;
+    background: var(--color-4);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
 .box_description {
     width: 70%;
     height: 90%;
-    background: #fff;
+    background: var(--color-1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@
 .title {
     font-size: 2rem;
     font-weight: 400;
-    color: #52687D;
+    color: var(--color-5);
 }
 
 @media (max-width: 1050px) {
@@ -65,7 +65,7 @@
     margin-top: 0.8rem;
     font-size: 3rem;
     font-weight: 600;
-    color: #323643;
+    color: var(--color-2);
 }
 
 @media (max-width: 1050px) {
@@ -85,7 +85,7 @@
     text-align: center;
     width: 45rem;
     font-size: 1.3rem;
-    color: #52687D;
+    color: var(--color-5);
 }
 
 @media (max-width: 1050px) {
@@ -113,11 +113,11 @@
     border-radius: 30px;
     text-align: center;
     font-size: 1rem;
-    background: #E45447;
+    background: var(--color-3);
     text-transform: uppercase;
     border: none;
     cursor: pointer;
-    color: #fff;
+    color: var(--color-1);
     letter-spacing: 1px;
     margin-right: 0.8rem;
     margin-left: 0.8rem;

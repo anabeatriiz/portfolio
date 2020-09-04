@@ -1,5 +1,5 @@
 .container {
-    background: #fff;
+    background: var(--color-1);
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 3rem;
-    color: #323643;
+    color: var(--color-2);
 }
 
 .title::after {
@@ -24,7 +24,7 @@
     display: block;
     width: 6rem;
     height: 4px;
-    background: #E45447;
+    background: var(--color-3);
     text-align: center;
     margin: 0.5rem auto;
 }
@@ -42,7 +42,7 @@
     width: 270px;
     height: 18rem;
     margin: 1.5rem;
-    background-color: #fff;
+    background-color: var(--color-1);
     border-radius: 3px;
     box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
 }
@@ -78,14 +78,14 @@
     font-size: 1.2rem;
     margin: 1rem 1rem 0;
     font-weight: 600;
-    color: #323643;
+    color: var(--color-2);
 }
 
 .paragraph_tecnologias {
     font-size: 0.9rem;
     margin: 0.5rem 0.5rem 0;
     text-transform: uppercase;
-    color: #323643;
+    color: var(--color-2);
 }
 
 .box_button_back {
@@ -99,11 +99,11 @@
     padding: 0.7rem;
     text-align: center;
     font-size: 1rem;
-    background: #8DA9CE;
+    background: var(--color-4);
     text-transform: uppercase;
     border: none;
     cursor: pointer;
-    color: #fff;
+    color: var(--color-1);
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -115,11 +115,11 @@
     padding: 0.6rem;
     text-align: center;
     font-size: 0.8rem;
-    background: #8DA9CE;
+    background: var(--color-4);
     text-transform: uppercase;
     border: none;
     cursor: pointer;
-    color: #fff;
+    color: var(--color-1);
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -130,7 +130,7 @@
     font-size: 0.8rem;
     letter-spacing: 1px;
     height: 50px;
-    color: #323643;
+    color: var(--color-2);
     display: flex;
     justify-content: center;
     align-items: center;

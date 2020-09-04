@@ -6,6 +6,14 @@
     list-style: none;
 }
 
+:root {
+    --color-1: #fff;
+    --color-2: #323643;
+    --color-3: #E45447;
+    --color-4: #8DA9CE;
+    --color-5: #52687D;
+}
+
 html,
 body {
     width: 100vw;
